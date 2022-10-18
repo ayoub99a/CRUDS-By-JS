@@ -15,6 +15,122 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div class="title">
+      <h1>CRUDS</h1>
+      <p>products management system</p>
+    </div>
+    <div class="create-area">
+      <div class="container">
+        <form action="">
+          <input
+            type="text"
+            placeholder="Product Name"
+            class="product-name dark-input"
+            id="productName"
+          />
+          <input
+            type="number"
+            placeholder="Price"
+            class="price dark-input"
+            id="price"
+          />
+          <input
+            type="number"
+            placeholder="Tax"
+            class="tax dark-input"
+            id="tax"
+          />
+          <input
+            type="number"
+            placeholder="Ads"
+            class="ads dark-input"
+            id="ads"
+          />
+          <input
+            type="number"
+            placeholder="Discount"
+            class="discount dark-input"
+            id="discount"
+          />
+          <span class="total" id="total">Total:</span>
+          <input
+            type="number"
+            placeholder="Count"
+            class="count dark-input"
+            id="count"
+          />
+          <input
+            type="text"
+            placeholder="Product Category"
+            class="product-name dark-input"
+            id="category"
+          />
+          <button class="create-btn dark-button" id="createBtn">create</button>
+        </form>
+      </div>
+    </div>
+    <div class="search-delete">
+      <div class="container">
+        <form action="">
+          <input
+            type="search"
+            placeholder="Search"
+            class="search dark-input"
+            id="search"
+          />
+          <button class="search-name dark-button" id = "searchByName">search by name</button>
+          <button class="search-cat dark-button" id = "searchByCat">search by category</button>
+        </form>
+      </div>
+    </div>
+    <div class="output-data">
+      <div class="container">
+        <table>
+          <thead>
+            <tr>
+              <th>id</th>
+              <th>title</th>
+              <th>count</th>
+              <th>price</th>
+              <th>ads</th>
+              <th>discount</th>
+              <th>total</th>
+              <th>category</th>
+              <th>update</th>
+              <th>delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="product">
+              <td>1</td>
+              <td>Samsung</td>
+              <td>2</td>
+              <td>400</td>
+              <td>5</td>
+              <td>0</td>
+              <td>405</td>
+              <td>phone & tablet</td>
+              <td>icon</td>
+              <td>icon</td>
+            </tr>
+            <tr class="product">
+              <td>2</td>
+              <td>Samsung</td>
+              <td>2</td>
+              <td>400</td>
+              <td>5</td>
+              <td>0</td>
+              <td>405</td>
+              <td>phone & tablet</td>
+              <td>icon</td>
+              <td>icon</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    </div>
+
     <script src="js/main.js"></script>
   </body>
 </html>
