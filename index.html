@@ -52,7 +52,7 @@
             class="discount dark-input"
             id="discount"
           />
-          <span class="total" id="total">Total:</span>
+          <span class="total" id="total"></span>
           <input
             type="number"
             placeholder="Count"
@@ -90,41 +90,19 @@
             <tr>
               <th>id</th>
               <th>title</th>
-              <th>count</th>
               <th>price</th>
+              <th>tax</th>
               <th>ads</th>
               <th>discount</th>
               <th>total</th>
+              <th>count</th>
               <th>category</th>
               <th>update</th>
               <th>delete</th>
             </tr>
           </thead>
-          <tbody>
-            <tr class="product">
-              <td>1</td>
-              <td>Samsung</td>
-              <td>2</td>
-              <td>400</td>
-              <td>5</td>
-              <td>0</td>
-              <td>405</td>
-              <td>phone & tablet</td>
-              <td>icon</td>
-              <td>icon</td>
-            </tr>
-            <tr class="product">
-              <td>2</td>
-              <td>Samsung</td>
-              <td>2</td>
-              <td>400</td>
-              <td>5</td>
-              <td>0</td>
-              <td>405</td>
-              <td>phone & tablet</td>
-              <td>icon</td>
-              <td>icon</td>
-            </tr>
+          <tbody id = "productsContainer">
+            
           </tbody>
         </table>
         </div>
